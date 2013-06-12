@@ -1,0 +1,25 @@
+{
+  "name": "nimblescript-config",
+  "version": "0.0.1",
+  "description": "nimbleScript Config Library",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Snackle"
+  ],
+  "author": "Tim Shnaider",
+  "licenses": [
+	{
+      "type": "GPL",
+      "url": "http://www.opensource.org/licenses/GPL-2.0"
+    }  
+  ],
+  "dependencies": {
+    "lodash": "~1.0.0-rc.3",
+    "nconf": "~0.6.7",
+	"pkginfo": ""
+  },
+  "devDependencies": {}
+}
