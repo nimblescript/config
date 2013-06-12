@@ -1,25 +1,24 @@
 {
-  "name": "nimblescript-config",
+  "name": "nimblescript-business-library",
   "version": "0.0.1",
-  "description": "nimbleScript Config Library",
+  "description": "nimbleScript Business Library",
   "main": "lib/index.js",
+  "dependencies": {
+    "async": "~0.1.22",
+    "dateformat": "~1.0.6-1.2.3",
+    "lodash": "~1.0.1",
+    "log4js": "~0.6.4",
+    "nconf": "~0.6.7",
+    "open": "~0.0.3",
+    "pkginfo": "~0.2.3",
+    "request": "~2.21.0",
+    "swig": "~0.13.4",
+    "temp": "~0.5.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "Snackle"
-  ],
   "author": "Tim Shnaider",
-  "licenses": [
-	{
-      "type": "GPL",
-      "url": "http://www.opensource.org/licenses/GPL-2.0"
-    }  
-  ],
-  "dependencies": {
-    "lodash": "~1.0.0-rc.3",
-    "nconf": "~0.6.7",
-	"pkginfo": ""
-  },
-  "devDependencies": {}
+  "license": "MIT"
 }
